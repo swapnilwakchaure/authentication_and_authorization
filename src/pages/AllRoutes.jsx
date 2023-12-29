@@ -6,13 +6,12 @@ import Register from "./Register";
 const AllRoutes = () => {
     console.log('all routes page');
     return (
-        <AllRoutes>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/register" element={<Register />} />
-                <Route path="/login" element={<Login />} />
-            </Routes>
-        </AllRoutes>
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/login" element={<Login />} />
+        </Routes>
+
     )
 }
 

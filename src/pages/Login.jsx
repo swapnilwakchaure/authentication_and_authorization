@@ -1,7 +1,11 @@
+import { useForm } from "react-hook-form";
+
 const Login = () => {
     return (
         <div>
-            <h1>Login Page</h1>
+            <form>
+                
+            </form>
         </div>
     )
 }
